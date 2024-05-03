@@ -15,7 +15,7 @@ function GetRandomText {
         $Output = $selectedRow.female -replace '\$Name', $Name
     }
 
-    $Text = "Fall: " + $IDLine + " - " + $Output
+    $Text = "Story: " + $IDLine + " - " + $Output
 
     $textBoxOutput.Text = $Text
 }
